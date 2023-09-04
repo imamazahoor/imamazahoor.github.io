@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imama Zahoor</title>
+  </head>
+  <body>
+    
+        <nav id="desktop-nav">
+            <h1 class="logo">Imama Zahoor</h1>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#projects">Projects</a> </li>
+                <li> <a href="#misc">Miscellaneous</a> </li>
+                <li>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2"
+                        onclick="window.open('./files/ImamaZahoor_resume.pdf')">
+                        Download CV
+                        </button>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <h1 class="logo">Imama Zahoor</h1>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                    <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li> <a href="#projects" onclick="toggleMenu()">Projects</a> </li>
+                    <li> <a href="#misc" onclick="toggleMenu()">Miscellaneous</a> </li>
+                    <li>
+                        <div class="btn-container">
+                            <button 
+                            class="btn btn-color-2"
+                            onclick="window.open('./files/ImamaZahoor_resume.pdf')">
+                            Download CV
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <section id="about">
+        <div class="section_pic-container">
+            <img src="./images/main.jpeg" alt="My avatar">
+            <p class="credit">image generated using a <a href="https://picrew.me/en/image_maker/535517">picrew</a> by Shirotattoo</p>
+            <p class="contact">The best way to reach me is through <span style="color: #b17261;"> email</span>.</p>
+            <div id="socials">
+                <a href="mailto: imamazahoor@gmail.com" target="_blank">
+                    <img 
+                    src="./images/email.png" alt="Email Icon" 
+                    class="icon">
+                </a>
+                <a href="https://www.linkedin.com/in/imama-zahoor/" target="_blank">
+                    <img 
+                    src="./images/linkedin.png" alt="LinkedIn Icon" 
+                    class="icon">
+                </a>
+                <a href="https://github.com/imamazahoor" target="_blank">
+                    <img 
+                    src="./images/github.png" alt="GitHub Icon" 
+                    class="icon">
+                </a>
+            </div>
+        </div>
+        <div class="section_text">
+            <h1 class="section_welcome">Welcome!</h1>
+            <p class="section_para"> I am a recent graduate of <strong>Lahore University of Management Sciences (LUMS)</strong>, where I did my bachelors in Computer Science. I am currently a Research Assistant at the LUMS <a href="https://www.c-salt.org/" target="_blank">Center for Speech and Language Technologies (CSaLT)</a>. Additionally, I also serve as the Technical Project Coordinator at <a href="https://ai-hi.org/" target="_blank">AI for Healthcare Initiative Lab (AIHI)</a>.
+            </p>
+            <br>
+            <p>
+             My research interests and work revolve around designing for development, specifically leveraging AI & ML to tackle complex social and environmental challenges. In particular, my work spans the realm of health tech, encompassing themes of general wellbeing, mental health and physical health. </p>
+            <br>
+            <p> My research goals consist of creating sustainable design solutions that prioritize accessibility and inclusivity, especially for underrepresented communities. </p>
+            
+            <!-- <p> </p> -->
+            
+
+        </div>
+
+       
+    </section>
+    <hr>
+    <section id="projects">
+        <h1 class="section_welcome">Selected Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              
+              <h2 class="experience-sub-title project-title">Darcheeni</h2>
+              <h6>ressearch project: on-going</h6>
+              <div class="article-container">
+                <img
+                  src="./images/darcheeni.png"
+                  alt="Darcheeni Project"
+                  class="project-img"
+                />
+              </div>
+              <p>Darcheeni is an AI-enabled physician assistant (AIPA) which listens to the doctor-patient conversation, elicits contextualized medical decision-making and develops a personalized Assessment and Plan (A&P) for each patient.</p>
+              <!-- <div class="btn-container">
+                <button class="btn btn-color-2">Read More</button>
+              </div> -->
+            </div>
+            <div class="details-container color-container">
+              
+              <h2 class="experience-sub-title project-title-long">Navigating Anger: A Religio-Spiritual Exploration</h2>
+              <h6>research project: on-going</h6>
+
+
+              <div class="article-container">
+                <img
+                  src="./images/anger.png"
+                  alt="Project 2"
+                  class="project-img anger"
+                />
+              </div>
+              <p>This project aims to explore anger management in Pakistan, particularly from the unique and under-researched lens of religious and spiritual beliefs. </p>
+              <!-- <div class="btn-container">
+                <button class="btn btn-color-2">Read More</button>
+              </div> -->
+            </div>
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Polarity</h2>
+              <h6>course project: completed</h6>
+
+
+              <div class="article-container">
+                <img
+                  src="./images/POLARITY.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <p>A user-centered design approach to recognize 
+                the primary needs of people on the Bipolar spectrum to devise an efficient, all-in-one record-keeping strategy. Five major themes were identified: usability, customizability, adherence, clinical intervention, and privacy.</p>
+              <!-- <div class="btn-container">
+                <button class="btn btn-color-2">Read More</button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <hr>
+    <section id="misc">
+        <h1 class="section_welcome">Miscellaneous</h1>
+        <h5>more about my interests and hobbies</h5>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="random">
+            <p>In my free time, I like to paint, read fiction books, and watch horror movies. I am also a Ghibli and coffee enthusiast. Here are two paintings I made a little while ago:</p> 
+            <div class="paint">
+                 <img src="images/painting1.jpeg" alt="" class="paint1">
+                 <img src="images/painting2.jpeg" alt="" class="paint2">
+            </div>
+        </div>
+          </div>
+        </div>
+    </section>
+    <!-- <footer>
+        <div id="socials">
+            <a href="mailto: imamazahoor@gmail.com" target="_blank">
+                <img 
+                src="./images/email.png" alt="Email Icon" 
+                class="icon">
+            </a>
+            <a href="https://www.linkedin.com/in/imama-zahoor/" target="_blank">
+                <img 
+                src="./images/linkedin.png" alt="LinkedIn Icon" 
+                class="icon">
+            </a>
+            <a href="https://github.com/imamazahoor" target="_blank">
+                <img 
+                src="./images/github.png" alt="GitHub Icon" 
+                class="icon">
+            </a>
+        </div>
+    </footer> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
