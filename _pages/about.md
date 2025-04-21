@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Lahore, Pakistan</p>
+    <p>email: imamazahoor at gmail dot com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,6 +24,11 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+projects:
+  enabled: true
+  limit: 3
+  scrollable: false
 ---
 
 Hi! I'm passionate about designing for development by leveraging `data and machine learning (ML)` to tackle complex social and environmental challenges. My research and work mainly focuses on `health technology`, particularly exploring practical applications that enhance mental, physical, and general wellbeing for individuals.
