@@ -14,6 +14,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+selected_projects: true
 
 announcements:
   enabled: false # includes a list of news items
@@ -25,7 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-projects: true
+
 ---
 
 Hi! I'm passionate about designing for development by leveraging `data and machine learning (ML)` to tackle complex social and environmental challenges. My research and work mainly focuses on `health technology`, particularly exploring practical applications that enhance mental, physical, and general wellbeing for individuals.
