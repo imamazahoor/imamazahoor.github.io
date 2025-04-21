@@ -25,10 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-projects:
-  enabled: true
-  scrollable: false
-  limit: 3
+projects: true
 ---
 
 Hi! I'm passionate about designing for development by leveraging `data and machine learning (ML)` to tackle complex social and environmental challenges. My research and work mainly focuses on `health technology`, particularly exploring practical applications that enhance mental, physical, and general wellbeing for individuals.
