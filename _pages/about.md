@@ -27,8 +27,8 @@ latest_posts:
 
 projects:
   enabled: true
-  limit: 3
   scrollable: false
+  limit: 3
 ---
 
 Hi! I'm passionate about designing for development by leveraging `data and machine learning (ML)` to tackle complex social and environmental challenges. My research and work mainly focuses on `health technology`, particularly exploring practical applications that enhance mental, physical, and general wellbeing for individuals.
